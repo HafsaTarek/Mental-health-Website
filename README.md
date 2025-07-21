@@ -1,6 +1,6 @@
 # MyMentalJourney 🌿
 
-A calming, user-friendly mental health support website focused on promoting awareness, accessibility, and self-care. Built with **HTML**, **CSS**, and **JavaScript**, this project is a personal initiative to apply front-end skills to a real-life issue that matters deeply.
+A calming, user-friendly mental health support website focused on promoting awareness, accessibility, and self-care. Built with **HTML53**, **CSS**, **Bootstrap** and a touch of **JavaScript**, this project is a personal initiative to apply front-end skills to a real-life issue that matters deeply.
 
 ---
 
