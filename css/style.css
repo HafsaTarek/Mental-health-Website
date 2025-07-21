@@ -273,7 +273,7 @@ footer:hover {
 }
 
 .follow-us-icon:hover {
-  background-color: #9ae0dd; /* your theme's primary */
+  background-color: #9ae0dd;
   color: white;
   transform: scale(1.1);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
