@@ -3,11 +3,14 @@ document.querySelectorAll(".progress-circle").forEach((circle) => {
   circle.style.setProperty("--value", value);
 });
 
-document.querySelector("form").addEventListener("submit", function (e) {
-  e.preventDefault(); 
-  const myModal = new bootstrap.Modal(document.getElementById("messageModal"));
-  myModal.show();
 
-  this.reset();
-});
+  document.addEventListener('DOMContentLoaded', function () {
+    const form = document.getElementById('contactForm');
 
+    form.addEventListener('submit', function (e) {
+      e.preventDefault(); // prevent page reload
+      const messageModal = new bootstrap.Modal(document.getElementById('messageModal'));
+      messageModal.show(); // show the modal
+      form.reset(); // optional: reset form after showing the modal
+    });
+  });
